@@ -1,0 +1,78 @@
+b {
+	font-size: 50px;
+}
+body {
+	float: left;
+}
+footer {
+	font-family: 'Libre Franklin', sans-serif;
+	background-color: grey;
+	color: white;
+	margin-top: 150px;
+}
+header {
+	line-height: 45px;
+	height: 120px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+}
+.PF {
+	color: #d1d1d1;	
+	padding-left: 50px;	
+}
+.int {
+	padding: 110px 50px;
+	background-image: url('../image/anak-rantau-teknik-elektro-terbaik-asia-scaled1.jpg');
+}
+.main {
+	font-size: 20px;
+	text-align: justify;
+}
+.judul {
+	padding-top: 20px;
+	font-size: 30px;
+}
+.content {
+	display: block;
+	float: left;
+	width: 33%;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+.email {
+	border: 5px solid #d1d1d1;
+    width:500px;
+    padding:10px;
+    font-size: 25px;
+}
+.e1 {
+	padding: 10px 0;
+}
+marquee {
+	padding: 15px 0;
+	font-size: 30px;
+}
+.Dl {
+	background-color: rgba(34, 49, 52, 0.9);
+	display: block;
+	float: right;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 670px) {
+	.judul p {
+		font-size: 20px;
+	}
+	.extra {
+		float: none;
+		display: none;
+		font-size: 20px;
+		width: 100%;
+	}
+	.content {
+		width: 100%;
+	}
+}
